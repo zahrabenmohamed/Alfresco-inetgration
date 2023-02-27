@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<repositories>
+		<repository>
+			<id>alfresco-public</id>
+			<url>https://artifacts.alfresco.com/nexus/content/groups/public</url>
+		</repository>
+
+
+	</repositories>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.alfresco</groupId>
+		<artifactId>alfresco-java-sdk</artifactId>
+		<version>5.2.0</version>
+	</parent>
+	<groupId>com.example</groupId>
+	<artifactId>Alfresco</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Alfresco</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
+	<dependencies>
+			<!-- Alfresco Java SDK 5 Java Event Handler API Spring Boot Starter -->
+			<dependency>
+				<groupId>org.alfresco</groupId>
+				<artifactId>alfresco-java-event-api-spring-boot-starter</artifactId>
+				<version>5.2.0</version>
+			</dependency>
+
+
+
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
